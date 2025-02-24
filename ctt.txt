@@ -27,13 +27,13 @@ Buka project terbaru
 	=> Klik menu "Repositories"
 	=> Cari dan klik "mobile_2_6sia7"
 	=> Klik "CODE" dan salin HTTPS url
-2. Atau buka menggunakan "flutlab.io"
+2. Buka menggunakan "flutlab.io"
 	=> Akses "FlutLab.io" dan klik "Sign In" => "Continue With Google"
 	=> Klik "New Project" selanjutnya klik "Import From VSC"
 	=> Klik "Public Repo"
 	=> Repo URL => Tempel hasil salin HTTPS url diatas
 	=> Project Name => "Pertemuan4" selanjutnya klik import.
-3. Atau buka menggunakan VS CODE
+3. ATAU buka menggunakan VS CODE
 	=> Klik menu "VIEW" dan pilih "Command Palette"
 	=> Ketikkan "Git" dan pilih "Git: Clone"
 	=> Tempel hasil salin HTTPS url diatas dan ENTER
