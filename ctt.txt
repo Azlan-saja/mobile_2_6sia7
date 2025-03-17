@@ -14,7 +14,9 @@ NamaWidget(
 
 Layar baru
 =============
-1. Widget Scaffold()
+0. Class	=> Stateless ATAU Stateful
+1. Widget => Scaffold()
+	Property,
 	=> appBar
 	=> body
 	=> bottomNavigationBar (Optional)

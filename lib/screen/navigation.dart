@@ -9,6 +9,25 @@ class Navigation extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Layar Navigation"),
       ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Kirim Data'),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Terima Data'),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Kirim Data & Terima Data'),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
