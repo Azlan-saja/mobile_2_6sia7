@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:master/screen/navigation/kirim_data.dart';
+import 'package:master/screen/navigation/kirim_terima_data.dart';
+import 'package:master/screen/navigation/terima_data.dart';
 
 class Navigation extends StatelessWidget {
   const Navigation({super.key});
@@ -14,15 +17,36 @@ class Navigation extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const KirimData(nama: 'AzlansajaTV'),
+                  ),
+                );
+              },
               child: const Text('Kirim Data'),
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const TerimaData(),
+                  ),
+                );
+              },
               child: const Text('Terima Data'),
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const KirimTerimaData(),
+                  ),
+                );
+              },
               child: const Text('Kirim Data & Terima Data'),
             ),
           ],
