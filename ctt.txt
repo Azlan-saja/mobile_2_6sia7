@@ -23,6 +23,8 @@ Layar baru
 	=>TabView (Optional)
 	=> Drawer (Optional)
 
+CMD => ping google.com -t
+
 Buka project terbaru
 ================
 1.  Akses "github.com/Azlan-saja"
@@ -35,11 +37,25 @@ Buka project terbaru
 	=> Klik "Public Repo"
 	=> Repo URL => Tempel hasil salin HTTPS url diatas
 	=> Project Name => "Pertemuan4" selanjutnya klik import.
+
+
+
 3. ATAU buka menggunakan VS CODE
 	=> Klik menu "VIEW" dan pilih "Command Palette"
 	=> Ketikkan "Git" dan pilih "Git: Clone"
 	=> Tempel hasil salin HTTPS url diatas dan ENTER
 	=> Tentukan lokasi simpan (Contoh di local disk D)
 	=> Cari file "pubspek.yml", klik kanan pilih "Get Package"
+
+
+
+Navigasi (Layar Navigation ke Layar Selanjutnya)
+========================================
+1. Kirim Data
+2. Terima Data
+3. Kirim dan Menunggu balasan (Terima Data)
+
+
+
 
 
