@@ -7,8 +7,41 @@ class KirimTerimaData extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Kirim & Terima Data')),
-      body: const Center(
-        child: Text('Hello AzlansajaTV'),
+      body: Center(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(12),
+                child: TextFormField(
+                  textAlign: TextAlign.center,
+                  readOnly: true,
+                  decoration: const InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Nilai 1',
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(12),
+                child: TextFormField(
+                  textAlign: TextAlign.center,
+                  decoration: const InputDecoration(
+                    border: OutlineInputBorder(),
+                    labelText: 'Input Nilai 2',
+                  ),
+                ),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: const Text('Hitung dan Tutup'),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

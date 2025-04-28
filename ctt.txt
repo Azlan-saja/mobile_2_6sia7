@@ -1,3 +1,31 @@
+Buka project terbaru
+================
+1.  Akses github.com/Azlan-saja
+	=> Klik Repositories
+	=> Cari dan klik mobile_2_6SIA7
+	=> Klik "CODE" dan salin HTTPS url
+3. Buka menggunakan VS CODE
+	=> Klik menu "VIEW" dan pilih "Command Palette"
+	=> Ketikkan "Git" dan pilih "Git: Clone"
+	=> Tempel hasil salin HTTPS url diatas dan ENTER
+	=> Tentukan lokasi simpan (Contoh di local disk D)
+	=> Tunggu proses clone selesai.
+	=> Lanjut cari file "pubspek.yml", 
+	     klik kanan pilih "Get Package"
+3. Pilih Emulator dan Jalankan project
+	=> Klik menu "VIEW" dan pilih "Command Palette"
+	=> Ketikkan "Flutter: Select Device" dan pilih "Start Emulator Flutter"
+	=> Tunggu emulator berjalan dan
+	=> Buka file main.dart 
+	=> Klik menu "RUN" dan pilih "Start Debug"
+
+
+
+
+
+
+
+
 1. Design
 	NamaWidget(
 		namaProperty1: value1,
@@ -54,6 +82,9 @@ Navigasi (Layar Navigation ke Layar Selanjutnya)
 1. Kirim Data
 2. Terima Data
 3. Kirim dan Menunggu balasan (Terima Data)
+
+Navigator.push	=> Buka layar
+
 
 
 

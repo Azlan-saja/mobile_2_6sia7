@@ -4,7 +4,9 @@ import 'package:master/screen/navigation/kirim_terima_data.dart';
 import 'package:master/screen/navigation/terima_data.dart';
 
 class Navigation extends StatelessWidget {
-  const Navigation({super.key});
+  Navigation({super.key});
+
+  final terimaData = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -27,16 +29,42 @@ class Navigation extends StatelessWidget {
               },
               child: const Text('Kirim Data'),
             ),
+            const Divider(color: Colors.red),
             ElevatedButton(
-              onPressed: () {
-                Navigator.push(
+              onPressed: () async {
+                final data = await Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => const TerimaData(),
                   ),
                 );
+                if (data != null) {
+                  terimaData.text = data;
+                }
               },
               child: const Text('Terima Data'),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(12),
+              child: TextFormField(
+                controller: terimaData,
+                textAlign: TextAlign.center,
+                readOnly: true,
+                decoration: const InputDecoration(
+                  border: OutlineInputBorder(),
+                ),
+              ),
+            ),
+            const Divider(color: Colors.red),
+            Padding(
+              padding: const EdgeInsets.all(12),
+              child: TextFormField(
+                textAlign: TextAlign.center,
+                decoration: const InputDecoration(
+                  border: OutlineInputBorder(),
+                  labelText: 'Input Nilai 1',
+                ),
+              ),
             ),
             ElevatedButton(
               onPressed: () {
@@ -48,6 +76,16 @@ class Navigation extends StatelessWidget {
                 );
               },
               child: const Text('Kirim Data & Terima Data'),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(12),
+              child: TextFormField(
+                controller: terimaData,
+                textAlign: TextAlign.center,
+                decoration: const InputDecoration(
+                  border: OutlineInputBorder(),
+                ),
+              ),
             ),
           ],
         ),
