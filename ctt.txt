@@ -1,5 +1,40 @@
 Buka project terbaru
 ================
+1.  Akses https://github.com/Azlan-saja
+	=> Klik "Repositories"
+	=> Cari dan klik "mobile_2_6SIA7"
+	=> Klik "CODE" dan klik "Download ZIP"
+	=> Cari file hasil download dan klik kanan 
+	      Pilih "Extract Here"
+	      Hasilnya folder mobile_2_6SIA7_main
+3. Buka menggunakan VS CODE
+	=> Buka VS Code dan klik menu "File"
+	=> Pilih "Open Folder" 
+	     dan cari folder hasil extract sebelumnya.
+	=> Berhasil dan lanjut cari file "pubspec.yaml", 
+	     klik kanan pilih file tersebut, pilih "Get Package"
+3. Pilih Emulator dan Jalankan project
+	=> Klik menu "VIEW" dan pilih "Command Palette"
+	=> Ketikkan "Flutter: Select Device" dan pilih "Start Emulator Flutter"
+	=> Tunggu emulator berjalan dan
+	=> Buka file "main.dart"
+	=> Klik menu "RUN" dan pilih "Start Debug"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Buka project terbaru
+================
 1.  Akses github.com/Azlan-saja
 	=> Klik Repositories
 	=> Cari dan klik mobile_2_6SIA7
