@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:master/screen/account.dart';
-import 'package:master/screen/home.dart';
-import 'package:master/screen/message.dart';
-import 'package:master/screen/navigation.dart';
+import 'package:master/screens/account.dart';
+import 'package:master/screens/home.dart';
+import 'package:master/screens/message.dart';
+import 'package:master/screens/navigation.dart';
+import 'package:master/screens/state_manajemens/state_manajemen.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
@@ -77,7 +78,14 @@ class _DashboardState extends State<Dashboard> {
             ListTile(
               leading: const Icon(Icons.data_array),
               title: const Text('State Manajemen'),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const StateManajemen(),
+                  ),
+                );
+              },
             ),
           ],
         ),

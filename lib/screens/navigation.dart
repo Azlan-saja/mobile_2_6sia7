@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:master/screen/navigation/kirim_data.dart';
-import 'package:master/screen/navigation/kirim_terima_data.dart';
-import 'package:master/screen/navigation/terima_data.dart';
+import 'package:master/screens/navigations/kirim_data.dart';
+import 'package:master/screens/navigations/kirim_terima_data.dart';
+import 'package:master/screens/navigations/terima_data.dart';
 
 class Navigation extends StatelessWidget {
   Navigation({super.key});
