@@ -74,8 +74,8 @@ class Navigation extends StatelessWidget {
                 final result = await Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) =>
-                        KirimTerimaData(nilai1: int.parse(inputNilai1.text)),
+                    builder: (context) => KirimTerimaData(
+                        nilai1: int.tryParse(inputNilai1.text) ?? 0),
                   ),
                 );
                 if (result != null) {
