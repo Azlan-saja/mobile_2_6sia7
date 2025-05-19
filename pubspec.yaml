@@ -63,6 +63,7 @@ flutter:
   assets:
     - assets/images/avatars/
     - assets/images/products/
+    - assets/roster.json
     # - assets/images/tracks/
   #   - images/a_dot_ham.jpeg
 
