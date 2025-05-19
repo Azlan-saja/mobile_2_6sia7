@@ -19,7 +19,7 @@ class StateManajemen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const StateLocal(),
+                      builder: (context) => StateLocal(),
                     ),
                   );
                 },
